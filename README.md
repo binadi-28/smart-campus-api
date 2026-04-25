@@ -63,7 +63,7 @@ The application uses a **singleton `InMemoryStore`** shared across all request-s
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/binadi-28/smart-campus-api.git
 cd smart-campus-api
 ```
 
@@ -519,7 +519,6 @@ curl -i -X POST http://localhost:8080/smart-campus-api/api/v1/sensors/CO2-001/re
 curl -i http://localhost:8080/smart-campus-api/api/v1/sensors/CO2-001/readings
 ```
 
----
 
 ## 5. Report — Answers to Coursework Questions
 
